@@ -1,6 +1,6 @@
 import pytest
-import animalsounds.dog as d
-import animalsounds.cat as c
+import dog as d
+import cat as c
 
 def test_doghi():
     dogres = d.makesound()
@@ -9,4 +9,3 @@ def test_doghi():
 def test_cathi():
     catres = c.makesound()
     assert isinstance(catres, str)
-
